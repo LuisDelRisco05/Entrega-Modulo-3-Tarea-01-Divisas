@@ -1,0 +1,70 @@
+body {
+    background: rgb(56,2,112);
+    background: linear-gradient(180deg, rgba(56,2,112,1) 0%, rgba(64,33,166,1) 65%, rgba(69,91,167,1) 95%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.main {
+    width: 50rem;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgb(54,5,191);
+    background: linear-gradient(180deg, rgba(54,5,191,1) 0%, rgba(82,48,193,1) 65%, rgb(33, 107, 136) 95%);
+    color: white;
+}
+.margin-center {
+    margin: 0 35%;
+}
+.searchBox{
+    margin: auto;
+}
+  
+label {
+    font-size: 20px;
+}
+  
+.btn {
+    width: 200px;
+}
+  
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    display: none;
+    margin: 50px auto;
+}
+  
+#finalAmount h2 {
+    font-size: 50px;
+    color: black;
+}
+  
+.finalValue {
+    font-family: 'Amiri', serif;
+}
+#error {
+    margin: auto;
+}
+  
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+  
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}
